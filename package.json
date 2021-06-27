@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-rss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compute the residual sum of squares (RSS) incrementally.",
   "license": "Apache-2.0",
   "author": {
