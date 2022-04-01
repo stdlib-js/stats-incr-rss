@@ -1,0 +1,53 @@
+{
+  "name": "@stdlib/stats-incr-rss",
+  "version": "0.0.0",
+  "description": "Compute the residual sum of squares (RSS) incrementally.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-incr-rss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "error",
+    "err",
+    "rss",
+    "ssr",
+    "sse",
+    "residuals",
+    "deviation",
+    "difference",
+    "diff",
+    "delta",
+    "incremental",
+    "accumulator",
+    "time series",
+    "timeseries",
+    "forecasting",
+    "forecast",
+    "model",
+    "selection",
+    "evaluation",
+    "prediction",
+    "manhattan",
+    "cityblock",
+    "city-block",
+    "distance",
+    "dist"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
