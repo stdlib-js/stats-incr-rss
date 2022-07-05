@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,16 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 /**
-* Compute the residual sum of squares incrementally.
+* If provided arguments, returns an updated residual sum of squares; otherwise, returns the current residual sum of squares.
 *
-* @module @stdlib/stats-incr-rss
+* ## Notes
+*
+* -   If provided `NaN` or a value which, when used in computations, results in `NaN`, the accumulated value is `NaN` for all future invocations.
+*
+* @param x - value
+* @param y - value
+* @returns residual sum of squares
+*/
+type accumulator = ( x?: number, y?: number ) => number | null;
+
+/**
+* Returns an accumulator function which incrementally computes the residual sum of squares.
+*
+* @returns accumulator function
 *
 * @example
-* var incrrss = require( '@stdlib/stats-incr-rss' );
-*
 * var accumulator = incrrss();
 *
 * var r = accumulator();
@@ -40,12 +53,9 @@
 * r = accumulator();
 * // returns 50.0
 */
-
-// MODULES //
-
-var incrrss = require( './main.js' );
+declare function incrrss(): accumulator;
 
 
 // EXPORTS //
 
-module.exports = incrrss;
+export = incrrss;
