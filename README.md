@@ -63,7 +63,7 @@ The [**residual sum of squares**][residual-sum-of-squares] (also referred to as 
 ## Usage
 
 ```javascript
-import incrrss from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-rss@esm/index.mjs';
+import incrrss from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-rss@v0.2.0-esm/index.mjs';
 ```
 
 #### incrrss()
@@ -121,7 +121,7 @@ r = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrrss from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-rss@esm/index.mjs';
+import incrrss from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-rss@v0.2.0-esm/index.mjs';
 
 var accumulator;
 var v1;
